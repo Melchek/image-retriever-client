@@ -1,0 +1,63 @@
+.start-button {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    &:hover {
+        .image-title {
+            border: 3px solid currentColor;
+        }
+
+        .image-backdrop {
+            opacity: 0;
+        }
+    }
+
+    .image-button {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .image-src {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-size: cover;
+        background-position: center 40%;
+    }
+
+    .image-backdrop {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: black;
+        opacity: 0.4;
+        transition: 300ms opacity;
+    }
+
+    .image-title {
+        position: relative;
+        padding: 22px 32px;
+    }
+
+    .image-marked {
+        height: 3px;
+        width: 18px;
+        background-color: white;
+        position: absolute;
+        bottom: -3px;
+        left: calc(50% - 9px);
+        transition: 300ms opacity;
+    }
+}

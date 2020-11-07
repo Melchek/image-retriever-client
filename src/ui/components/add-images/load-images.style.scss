@@ -1,0 +1,46 @@
+.add-images {
+
+    .dialog-content {
+
+        .step-content {
+            min-height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .logo-container {
+
+                img {
+                    max-width: 100%;
+                }
+
+                .drop-zone-component {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+
+            .cover-logo-container {
+
+                img {
+                    max-width: 100%;
+                }
+                
+                .drop-zone-component {
+                    width: 360px;
+                    height: 120px;
+                }
+            }
+        }
+
+        .buttons {
+            padding: 8px;
+            display: flex;
+            justify-content: flex-end;
+
+            button {
+                margin: 0 4px;
+            }
+        }
+    }
+}

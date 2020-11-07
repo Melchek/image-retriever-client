@@ -1,0 +1,20 @@
+.drop-zone-component {
+    background-color: #fff;
+    border: 2px dashed rgb(187, 186, 186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    min-width: 40vw;
+    min-height: 40vh;
+    
+    .highlight {
+        background-color: rgb(188, 185, 236);
+    }
+    
+    .file-input {
+        display: none;
+    }
+}
+    

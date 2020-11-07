@@ -1,0 +1,21 @@
+{
+    "mainScreen": {
+    },
+    "startButton": {
+        "start": "Start"
+    },
+    "loadImages": {
+        "title": "Load Images",
+        "reloadImage": "Reload Image",
+        "add": "Add",
+        "save": "Save",
+        "back": "Back",
+        "later": "Later",
+        "next": "Next",
+        "finish": "Process",
+        "steps": {
+            "image": "Add Image",
+            "queryImage": "Add query image"
+        }
+    }
+}

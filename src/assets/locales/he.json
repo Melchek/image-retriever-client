@@ -1,0 +1,21 @@
+{
+    "mainScreen": {
+    },
+    "startButton": {
+        "start": "התחל"
+    },
+    "loadImages": {
+        "title": "טעינת תמונות",
+        "reloadImage": "טעינה מחדש",
+        "add": "הוספה",
+        "back": "חזרה",
+        "later": "לא עכשיו",
+        "next": "הבא",
+        "save": "שמירה",
+        "finish": "סיום",
+        "steps": {
+            "image": "הוסף תמונה",
+            "queryImage": "Add small image"
+        }
+    }
+}
